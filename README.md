@@ -1,4 +1,4 @@
-#20231001_dss_llm_pikachu_batch_prediction
+# 20231001_dss_llm_pikachu_batch_prediction
 
 # What
 This repo contains the code for the batch prediction pipeline for the DSS Meetup. The pipeline is built using Kubeflow Pipelines and Vertex AI.
