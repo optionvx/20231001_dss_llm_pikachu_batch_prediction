@@ -20,5 +20,6 @@ Detailed instructions are listed in each markdown file in the respective directo
 
 2. Ensure that you have all the necessary projects set up in your Google Cloud Platform Project. For more details follow the instructions here: https://cloud.google.com/blog/products/ai-machine-learning/getting-started-kubeflow-pipelines
 
-
+# License
+This code is available under the MIT license. See the LICENSE file for more info.
 
