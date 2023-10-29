@@ -1,0 +1,5 @@
+langchain==0.0.297
+pandas==2.0.3
+tqdm==4.65.0
+google-cloud-aiplatform==1.33.1
+openai==0.27.10
