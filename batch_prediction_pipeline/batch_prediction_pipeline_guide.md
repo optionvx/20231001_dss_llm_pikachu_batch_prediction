@@ -1,7 +1,6 @@
 # Batch Prediction Pipeline Guide  
 
-<img src="img/pika_pic.png" alt="drawing" width="80"/>
-<img src="img/vertexai.png" alt="drawing" width="50"/>
+<img src="img/pika_pic.png" alt="drawing" width="80"/> <img src="img/vertexai.png" alt="drawing" width="50"/>
 <img src="img/kubeflow.png" alt="drawing" width="50"/>
 <img src="img/langchain.png" alt="drawing" width="100"/>
 
