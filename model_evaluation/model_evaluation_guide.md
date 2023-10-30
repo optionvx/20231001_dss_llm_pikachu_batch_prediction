@@ -6,9 +6,9 @@ To be able to recreate local runs of this stuff, it may come in handy to recreat
 
 ```
 cd /model_evaluation 
-conda create -n pikachu_model_eval_env python=3.7
+conda create -n pikachu_model_eval_env python=3.10
 conda activate pikachu_model_eval_env
-pip3 install requirements.txt 
+pip3 install -r requirements.txt 
 python -m ipykernel install --user --name=pikachu_model_eval_env # add to your jupyter kernel for running code in model_evaluation_notebook.ipynb
 
 ```
