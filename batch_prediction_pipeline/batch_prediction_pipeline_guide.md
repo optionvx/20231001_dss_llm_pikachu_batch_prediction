@@ -12,7 +12,8 @@ For Kubeflow Pipeline Build in pipeline_build.ipynb
 cd /batch_prediction_pipeline 
 conda create -n pikachu_pipeline_build python=3.7
 conda activate pikachu_pipeline_build
-pip3 install requirements.txt 
+pip3 install --user ipykernel
+pip3 install -r requirements.txt 
 python -m ipykernel install --user --name=pikachu_pipeline_build # add to your jupyter kernel for pipeline_build.ipynb
 ```
 
