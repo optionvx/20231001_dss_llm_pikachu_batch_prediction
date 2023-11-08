@@ -241,7 +241,7 @@ class llm_component:
         dict: A dictionary containing the label and unique identifier.
     """
         prompt = self.query + f""" Label the Text. \Text:'{text}' """
-        output = self.self.text_bison.predict(prompt, **self.text_bison_parameters).text
+        output = self.text_bison.predict(prompt, **self.text_bison_parameters).text
         parsed_output = self.output_parser(output)
 
         # Add the unique identifier to the parsed output
